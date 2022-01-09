@@ -1,0 +1,2 @@
+# JavascriptExamples
+Practice of JS
