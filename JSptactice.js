@@ -130,3 +130,19 @@ console.log(bmi);
 
 
 ---------------------------------------------------------
+
+
+
+
+    prompt("Please enter your name");
+prompt("Please enter your love name");
+
+
+
+
+var loveColculator = Math.random() * 100;
+loveColculator = Math.floor(loveColculator) + 1;
+
+
+
+alert("You will love your girl % " + loveColculator);
