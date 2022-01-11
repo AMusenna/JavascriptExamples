@@ -131,18 +131,18 @@ console.log(bmi);
 
 ---------------------------------------------------------
 
-
-
-
     prompt("Please enter your name");
 prompt("Please enter your love name");
-
-
 
 
 var loveColculator = Math.random() * 100;
 loveColculator = Math.floor(loveColculator) + 1;
 
+if (loveColculator > 60) {
+    alert("You will love your girl tooo much today % " + loveColculator);
+}else {
+    alert("You will love your girl today like % " + loveColculator);
+}
 
 
-alert("You will love your girl % " + loveColculator);
+
