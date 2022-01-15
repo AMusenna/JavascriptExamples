@@ -178,3 +178,76 @@ if (loveColculator > 60) {
 
 
 
+    function isLeap(year) {
+
+        if (year % 4 !==0 || year % 100 === 0 && year % 400 !== 0) {
+
+            console.log("Not leap year.");
+
+        } else {
+
+            console.log("Leap year.");
+
+        }
+
+    }
+
+
+isLeap(1998);
+
+
+--------------------------------------
+
+
+
+var guestLists = ["Ahmet","Mehmet","Cnabet","Hasan","Kos ","Getir"];
+var guestNames = prompt("What is your name ? ")
+
+if (guestLists.includes(guestNames)) {
+
+    alert("Welcome Come In");
+} else{
+    alert("Sorry maybe next time :( ")
+}
+
+----------------------------------------
+var output = [];
+var count = 1;
+
+function fizzBuzz() {
+
+    output.push(count);
+    count ++;
+
+    console.log(output);
+
+}
+
+-------------------------------------------------------
+
+var output = [];
+var count = 1;
+
+function fizzBuzz () {
+    if (count % 3 === 0 && count % 5 ===0) {
+        output.push("FizzBuzz");
+    }
+    else if (count % 3 === 0) {
+
+        output.push("Fizz");
+    }
+    else if (count % 5 === 0) {
+        output.push("Buzz");
+    }
+
+    else {
+        output.push(count);
+    }
+
+    count ++;
+
+    console.log(output);
+
+}
+
+fizzBuzz ();
