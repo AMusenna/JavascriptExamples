@@ -282,3 +282,44 @@ while (numberOfBottles >= 0) {
     numberOfBottles--;
     console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
 }
+
+------------------------------------------------------------
+
+const ciftSayilar = (n) => {
+    var array = [];
+
+    for (let i = 0; i <= n; i++) {
+        if (i % 2 === 0) {
+            array.push(i);
+        }
+    }
+
+    console.log(array.length);
+};
+
+ciftSayilar(30);
+
+//
+
+const sayilarToplami = (n) => {
+    var array = [];
+
+    for (let i = 0; i <= n; i++) {
+        if (i % 2 === 0) {
+            array.push(i);
+        }
+    }
+
+    // arr = [0,2,4,6]    array[4]
+
+    const toplamSayiAdedi = array.length;
+
+    const toplam =
+        ((array[0] + array[toplamSayiAdedi - 1]) / 2) * toplamSayiAdedi;
+
+    console.log(toplam);
+};
+
+sayilarToplami(30);
+
+---------------------------------------------------------------------
